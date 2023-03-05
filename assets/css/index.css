@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5;
+}
+h1 {
+    font-size: larger;
+    color:  hsl(179, 62%, 43%);
+}
+h2 {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+}
+h3 {
+    padding: 1rem 0;
+    color: hsl(71, 73%, 54%);
+}
+body {
+    margin: 4rem 2rem 2rem;
+    background:hsl(204, 43%, 93%);
+}
+main {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 20px 50px -20px hsl(0, 0%, 33%);
+}
+button {
+    margin-top: 1.5rem;
+    padding: 0.8rem 5.8rem;
+    background: hsl(71, 73%, 54%);
+    border-radius: 0.5rem;
+    box-shadow: 0 20px 50px -10px hsl(0, 0%, 33%);
+}
+button:hover {
+    background: white;
+    font-weight: bold;
+    color: hsl(71, 73%, 54%);
+    scale: 1.1;
+    transition: scale 1s, background 1s;
+    cursor: pointer;
+}
+section {
+    padding: 2rem;
+}
+
+.main__first {
+    background: white;
+}
+.main__first p {
+    font-size: 0.8rem;
+    color: hsl(218, 22%, 67%);
+}
+
+.main__second {
+    background: hsl(179, 62%, 43%);
+}
+.second__price {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.main__third {
+    background: hsla(179, 62%, 43%, 0.8)
+}
+.main__third p {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.footer__attribution {
+    padding-top: 2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    color: hsl(179, 62%, 43%);
+    white-space: pre;
+}
+.footer__attribution a {
+    font-size: 0.8rem;
+    color: hsl(179, 62%, 43%);
+}
+.footer__attribution a:hover {
+    font-weight: 700;
+}
+
+@media (min-width: 600px) {
+    main {
+        width: 39rem;
+        margin: auto;
+    }
+    .main__first p {
+        white-space: pre-line;
+        font-size: 0.9rem;
+    }
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer__attribution {
+        white-space: normal;
+    }
+}
