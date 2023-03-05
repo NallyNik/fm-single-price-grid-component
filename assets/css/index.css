@@ -6,19 +6,16 @@
     text-decoration: none;
     border: none;
     font-family: 'Karla', sans-serif;
-    font-size: 1rem;
     color: white;
     line-height: 1.5;
 }
 h1 {
-    font-size: larger;
     color:  hsl(179, 62%, 43%);
 }
-h2 {
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
-}
 h3 {
+    padding-bottom: 1rem;
+}
+h4 {
     padding: 1rem 0;
     color: hsl(71, 73%, 54%);
 }
@@ -54,7 +51,7 @@ section {
     background: white;
 }
 .main__first p {
-    font-size: 0.8rem;
+    font-size: smaller;
     color: hsl(218, 22%, 67%);
 }
 
@@ -103,7 +100,6 @@ section {
     }
     .main__first p {
         white-space: pre-line;
-        font-size: 0.9rem;
     }
     .main__container {
         display: grid;
