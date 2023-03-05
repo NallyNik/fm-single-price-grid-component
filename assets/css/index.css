@@ -15,10 +15,6 @@ h1 {
 h3 {
     padding-bottom: 1rem;
 }
-h4 {
-    padding: 1rem 0;
-    color: hsl(71, 73%, 54%);
-}
 body {
     margin: 4rem 2rem 1rem;
     background:hsl(204, 43%, 93%);
@@ -54,7 +50,11 @@ section {
     font-size: smaller;
     color: hsl(218, 22%, 67%);
 }
-
+.first__subtitle {
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: hsl(71, 73%, 54%);
+}
 .main__second {
     background: hsl(179, 62%, 43%);
 }
