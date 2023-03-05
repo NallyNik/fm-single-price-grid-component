@@ -9,12 +9,6 @@
     color: white;
     line-height: 1.5;
 }
-h1 {
-    color:  hsl(179, 62%, 43%);
-}
-h3 {
-    padding-bottom: 1rem;
-}
 body {
     margin: 4rem 2rem 1rem;
     background:hsl(204, 43%, 93%);
@@ -50,6 +44,9 @@ section {
     font-size: smaller;
     color: hsl(218, 22%, 67%);
 }
+.first__title {
+    color:  hsl(179, 62%, 43%);
+}
 .first__subtitle {
     padding: 1rem 0;
     font-size: 1rem;
@@ -62,7 +59,10 @@ section {
     font-size: xx-large;
     font-weight: 700;
 }
-
+.title {
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
 .main__third {
     background: hsla(179, 62%, 43%, 0.8)
 }
